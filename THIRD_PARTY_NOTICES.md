@@ -11,5 +11,23 @@ The RVTDCNN is the project's reconstruction of Hu et al.,
 DOI 10.1109/TNNLS.2021.3054867. It is trained on OpenDPD data;
 it is not a reproduction of the original authors' PA/hardware results.
 
-Research code and manuscript rights are not assigned a new blanket license.
+Original JMBNR contributions are licensed under the root MIT `LICENSE`.
+That grant covers only rights held by the JMBNR authors; it does not replace
+upstream licenses or grant rights to third-party material.
+
+OpenDPD material retaining upstream terms includes:
+
+- The adapted PA/DGRU implementation in `jmbnr/models.py` (mixed original and
+  adapted code; OpenDPD portions remain Apache-2.0).
+- `jmbnr/opendpd_metrics.py` (extracted reporting code).
+- The original captures and metadata in `data/` and the upstream PA weights
+  in `models/pa.pt`, distributed with the retained upstream license and provenance.
+
+Modifications to OpenDPD code: the PA wrapper implements the archived eager
+equations without the unused CUDA graph helper; metric functions were extracted
+and reformatted for standalone use. Project modifications are MIT-licensed
+without removing the upstream Apache-2.0 obligations.
+
+The upstream Apache-2.0 text is preserved verbatim in `LICENSE-OpenDPD`.
+Installed dependencies are separately licensed by their respective owners.
 No manuscript, Overleaf project, or upstream publication PDF is included.

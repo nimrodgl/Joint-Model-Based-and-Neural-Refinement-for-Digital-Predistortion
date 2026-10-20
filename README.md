@@ -116,4 +116,15 @@ The earlier extra-1-dB target was not achieved. The reconstructed RVTDCNN is
 not a reproduction of the original study's hardware measurements.
 
 See `VALIDATION.json`, `SOURCE_PROVENANCE.json`, and `THIRD_PARTY_NOTICES.md`
-for extraction checks and attribution. No new blanket project license is assigned.
+for extraction checks and attribution.
+
+## License
+
+Original JMBNR code, documentation, and project-authored results are licensed
+under the [MIT License](LICENSE). Third-party OpenDPD material retains its
+upstream terms: the adapted PA implementation in `jmbnr/models.py`,
+`jmbnr/opendpd_metrics.py`, original `data/` captures and metadata, and
+`models/pa.pt` are not relicensed as MIT. See
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and
+[LICENSE-OpenDPD](LICENSE-OpenDPD) for the retained Apache-2.0 terms and attribution.
+Third-party dependencies retain their respective licenses.

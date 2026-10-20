@@ -1,10 +1,11 @@
 {
   "files_sha256": {
     ".gitignore": "7780ba7d353f3488b01301a8a7d615b6bc5b356cf4cddb11f06691d8d0c295ce",
+    "LICENSE": "2dac5dcc17fa5a3b7425e01571453ef4b70ee65b635f4cfbacf2f11c6308d75d",
     "LICENSE-OpenDPD": "deb902d88d3c587ddc0aec3e144f85abf83f0b48ce08080ad2971f7dd358ef71",
-    "README.md": "51be4d2980d65c6ab4914968b4a4c5c3a0311e3ddc029c14cb524cdb0e08ff83",
+    "README.md": "a154846b8c6ca1028face8aecdef96ff33ae595376c6c31ab68d4c5bc9100f7e",
     "SOURCE_PROVENANCE.json": "08d84c5d3205a29164167d6969fe5ca5b0bb484bc495aa47ac8370c9e8edbab4",
-    "THIRD_PARTY_NOTICES.md": "29a88299b0bf7a63ab91d0e2dbc15300587a6ea30e1ce0a985d499b9bdb68416",
+    "THIRD_PARTY_NOTICES.md": "0edf510bfee68bdb7ef046baafbe23a6cf630090c1f222b878107dd0af2c2eb9",
     "VALIDATION.json": "06710eb2527c5233959613bede0e07ab9e616e78e2761f7ac3af90db020f04c8",
     "data/checksums.json": "2a8d2ac469d6cc01ca822f3779ce48a6cf71df802570788d3ab5cf9afec707e2",
     "data/spec.json": "4e777ff275bd1b2676c5ffc6a34d3432b56aedb3ed78935734485f3f9c2f1e8b",
