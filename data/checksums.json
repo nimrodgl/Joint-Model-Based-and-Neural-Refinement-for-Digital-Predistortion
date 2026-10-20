@@ -1,0 +1,9 @@
+{
+  "spec.json": "4e777ff275bd1b2676c5ffc6a34d3432b56aedb3ed78935734485f3f9c2f1e8b",
+  "test_input.csv": "7fb259816af61b34ce6a966858787ca164fd1aed287fafa6005c91ae4abcd5fb",
+  "test_output.csv": "06eab1afc94c0ee3140cabc785ed1a81e7e3446d0a580aebc749c5853a1d07c5",
+  "train_input.csv": "3de4709bcb4e9e5c155c075ab8e210de3b8545f73a43edaf05885b41a849a9d1",
+  "train_output.csv": "e2d852dccac4f0db8934746f8c14aedb316edd5589c972d7a10d6dc85c0775c2",
+  "val_input.csv": "ad04f3f272d6974429c7a5b6ee6bbcca91c180157066a5994ae7bb5912053c97",
+  "val_output.csv": "efdfeb3d261a284024daa53378201917d1d7af96e128fa65a5c44c5266665c15"
+}

@@ -1,0 +1,122 @@
+{
+  "no_dpd": {
+    "fixed": {
+      "output_gain_db": -0.01729182903583694,
+      "worst_frame_gain_error_db": 0.0919904394025314,
+      "fixed_gain_nmse_db": -19.359227794151646
+    },
+    "legacy": {
+      "nmse_db": -19.367341995239258,
+      "legacy_spectral_evm_db": -20.217827013683728,
+      "rms_active_bin_evm_db": -19.523078148505522,
+      "acpr_left_db": -35.145715310358845,
+      "acpr_right_db": -34.76128109714147,
+      "far_oob_db": -35.04664611816406
+    },
+    "notebook": {
+      "evm_db": -19.55670218554265,
+      "acpr_db": -40.0643495781319,
+      "oob_db": -34.867841569393285
+    },
+    "amplitude": {
+      "envelope_nmse_db": -22.22768021991245,
+      "main_envelope_nmse_db": -22.52934758417663
+    }
+  },
+  "rvtdcnn_158": {
+    "fixed": {
+      "output_gain_db": -0.0025353264087181835,
+      "worst_frame_gain_error_db": 0.007409037210372471,
+      "fixed_gain_nmse_db": -32.87317810908676
+    },
+    "legacy": {
+      "nmse_db": -33.04097366333008,
+      "legacy_spectral_evm_db": -37.51544658635098,
+      "rms_active_bin_evm_db": -37.293856307960674,
+      "acpr_left_db": -39.9413503301263,
+      "acpr_right_db": -40.041773208859695,
+      "far_oob_db": -35.25598907470703
+    },
+    "notebook": {
+      "evm_db": -37.2061551866734,
+      "acpr_db": -39.406914438392604,
+      "oob_db": -38.9350769559976
+    },
+    "amplitude": {
+      "envelope_nmse_db": -35.80924641834373,
+      "main_envelope_nmse_db": -40.207812564918356
+    }
+  },
+  "gmp_rls": {
+    "fixed": {
+      "output_gain_db": 0.002355011284639685,
+      "worst_frame_gain_error_db": 0.008704285753816576,
+      "fixed_gain_nmse_db": -32.901545174461006
+    },
+    "legacy": {
+      "nmse_db": -33.207210540771484,
+      "legacy_spectral_evm_db": -38.28149566201963,
+      "rms_active_bin_evm_db": -38.030422102518926,
+      "acpr_left_db": -38.827473985490386,
+      "acpr_right_db": -42.3452063793578,
+      "far_oob_db": -34.10780715942383
+    },
+    "notebook": {
+      "evm_db": -37.96377047618882,
+      "acpr_db": -38.48327142969834,
+      "oob_db": -37.977186636016846
+    },
+    "amplitude": {
+      "envelope_nmse_db": -35.40336161317465,
+      "main_envelope_nmse_db": -40.458994241792695
+    }
+  },
+  "donor_cnn": {
+    "fixed": {
+      "output_gain_db": -0.012349541639796381,
+      "worst_frame_gain_error_db": 0.018502065941967103,
+      "fixed_gain_nmse_db": -36.96900590030711
+    },
+    "legacy": {
+      "nmse_db": -37.20736312866211,
+      "legacy_spectral_evm_db": -41.11178033987356,
+      "rms_active_bin_evm_db": -40.92845652087766,
+      "acpr_left_db": -44.67164685169415,
+      "acpr_right_db": -45.25594466831873,
+      "far_oob_db": -37.720001220703125
+    },
+    "notebook": {
+      "evm_db": -40.87495039876269,
+      "acpr_db": -41.40162244356139,
+      "oob_db": -43.59330957830807
+    },
+    "amplitude": {
+      "envelope_nmse_db": -38.1381098127526,
+      "main_envelope_nmse_db": -41.89551707054509
+    }
+  },
+  "long_joint_cnn": {
+    "fixed": {
+      "output_gain_db": -0.01169720029408681,
+      "worst_frame_gain_error_db": 0.01752860354532186,
+      "fixed_gain_nmse_db": -37.015434194213
+    },
+    "legacy": {
+      "nmse_db": -37.26213073730469,
+      "legacy_spectral_evm_db": -41.20516029681819,
+      "rms_active_bin_evm_db": -41.00125934918612,
+      "acpr_left_db": -45.32814902171889,
+      "acpr_right_db": -45.92894538578673,
+      "far_oob_db": -37.79530334472656
+    },
+    "notebook": {
+      "evm_db": -40.94670986420107,
+      "acpr_db": -41.49479997893381,
+      "oob_db": -43.884689445175695
+    },
+    "amplitude": {
+      "envelope_nmse_db": -38.17637542005629,
+      "main_envelope_nmse_db": -41.929176972479794
+    }
+  }
+}

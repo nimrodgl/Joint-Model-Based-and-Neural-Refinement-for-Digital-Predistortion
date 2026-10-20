@@ -1,0 +1,47 @@
+{
+  "scope": "One representative five-method run and proposed-method retraining; broader benchmark records are summary-only.",
+  "replayed_methods": 5,
+  "raw_pa_inputs_and_outputs_match_archive": true,
+  "metric_tolerance_db": 2e-05,
+  "baseline_one_update_max_weight_difference": 1.1641532182693481e-10,
+  "refinement_one_update_loss_identical": true,
+  "refinement_export_weights_identical": true,
+  "gmp_refit_coefficients_identical": true,
+  "train_both_smoke": "passed",
+  "train_refinement_smoke": "passed",
+  "saved_output_plotting": "passed",
+  "full_training_rerun": false,
+  "frozen_pa": true,
+  "original_dataset_unchanged": true,
+  "manuscript_files": false,
+  "v05_exports": {
+    "command": "python generate_results.py",
+    "numerical_tables": {
+      "II": {
+        "rows": 12,
+        "all_displayed_numeric_cells_match": true,
+        "source_sha256": "1e06c40183ce8f4c78664bfdfdcf48cd00133cdad17e6143a129ca490e018258"
+      },
+      "III": {
+        "rows": 4,
+        "all_displayed_numeric_cells_match": true,
+        "source_sha256": "6a44ba73fac696427e2c10ce324e54520663296abf7c9c8a090d1a2685f6d945"
+      },
+      "IV": {
+        "rows": 6,
+        "all_displayed_numeric_cells_match": true,
+        "source_sha256": "f57dc1b2e5921ad50b7e19415e28fb2ef5190d29726f7d52b09d16369eeb22ee"
+      },
+      "V": {
+        "rows": 2,
+        "all_displayed_numeric_cells_match": true,
+        "source_sha256": "539a3960be25472980098f5559b501f2f39f7e9c7ba5ace61e3fc28478b71dbe"
+      }
+    },
+    "training_settings": "Checked against V05 Table I; documented executed settings.",
+    "figure_2_png_byte_identical": true,
+    "figure_1": "Topology redrawn as a schematic; visually inspected, not pixel-identical.",
+    "no_benchmark_retraining": true
+  },
+  "validation_phase": "Pre-publication scientific and packaging checks"
+}

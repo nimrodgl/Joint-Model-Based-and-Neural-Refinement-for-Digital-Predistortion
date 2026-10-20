@@ -1,0 +1,60 @@
+{
+  "extracted_source_sha256": {
+    "experiments/run_opendpd_comparison.py": "282a3c68ce818ccf930a2be02f574d223935d58799526c98a5508d231a1bfe7f",
+    "experiments/side_residual_refinement/run_joint_long_memory.py": "04a197b9eb43baaeb828a9d5030cc926eeade2cd1d56beaaed28362a34635272",
+    "experiments/pa_models/opendpd_measured/backbones/finite_iq.py": "9a5e0adbea746aa6e84b634c153ff5ad83c4e77bbfb5f6c4a3ae2b9a581d5aac",
+    "experiments/side_residual_refinement/run_constrained.py": "36b0321d9f9014e75d9f29ff5b478ee8fd6b753e196f41d47a873b372d4766af",
+    "experiments/rvtdcnn_reference.py": "7d613d517c0db5a60453c05b94f3f26e1e0f224113b14712ad2d767f6693cb12",
+    "experiments/complex_residual_cnn.py": "f4fcb5a148cfed9833f7a83dbaf0b37d8763f5526915378dd74516de2bec4585",
+    "experiments/side_residual_refinement/export_centered.py": "c8c087af1d2d8fbe733539f5109514d534b45ac25e4890f0e4193423e67734bb",
+    "experiments/pa_models/opendpd_measured/utils/metrics.py": "19e525834c96371e9837f909b8e848d4b32ff49ef52855e3281ec3f7682cd992",
+    "experiments/run_original_learning_pa.py": "f830e84d67016ae565761dfc3ad4d721849d44754304eea89c04db2dbfef2a9d",
+    "experiments/reviewer_gap_training.py": "9c8406976e14b2dc1fa3981da963bb37e3d4f1ffd617e7257abfc2c54468ff63",
+    "experiments/side_residual_refinement/run_far_oob_seed_comparison.py": "bc6b6756ac9996495eefc2aea6d6f90b9f8315e6d88a0e4582656a388946cfe1",
+    "experiments/runs/2026-10-04_10-57-39-4926818_fresh_dpd/pa_checkpoint.pt": "5f30bac820746a79f12ca6db210c75378cd3f4519a34d9bd30aa00069bfea77d",
+    "experiments/runs/2026-10-04_10-57-39-4926818_fresh_dpd/rls_coefficients.npy": "b4bc0377218e37fe85c8f917fa37526630299ca37e0ba2211ceafd78dd607d1b",
+    "results/interim_evidence/2026-10-05_bridge_seed1234/training/seed_1234/conditioned_large_checkpoint.pt": "e1a359677a516c27684ec6f72edc12e871b796c7a3290eba86d6f5dcf395e5d2",
+    "experiments/side_residual_refinement/runs/2026-10-05_17-03-13-979829_far_oob_seed_comparison/arms/seed_1234_far/deployment_cnn_checkpoint.pt": "f5de64b80de3c65aa20b08ff6b288cccba69201665dc14a3dc51ba145bceada8",
+    "experiments/side_residual_refinement/runs/2026-10-05_17-03-13-979829_far_oob_seed_comparison/arms/seed_1234_far/deployment_gmp_coefficients.npy": "dfa0b51f78746ac9a8a4c5bbedcf5197634b8a0c2468748929c33410beb48f7c",
+    "experiments/side_reference_baseline/runs/2026-10-05_22-44-13-922320_reference_baseline/reference_checkpoint.pt": "0fde42c40cbcd3af4ff764e752a21452925168e920938d43b451461e20d1199a",
+    "results/interim_evidence/2026-10-05_bridge_seed1234/training/seed_1234/conditioned_large_history.json": "8b6e93175926c507f81d80923ac77530225bcd3a3ef17615038d8134f0c50cb9",
+    "experiments/side_residual_refinement/runs/2026-10-05_17-03-13-979829_far_oob_seed_comparison/arms/seed_1234_far/history.json": "f7be1bb7ad29a8568ef5c86e08670e5ed9c9d54ca590df04d31ea790d788372a",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/spec.json": "4e777ff275bd1b2676c5ffc6a34d3432b56aedb3ed78935734485f3f9c2f1e8b",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/test_input.csv": "7fb259816af61b34ce6a966858787ca164fd1aed287fafa6005c91ae4abcd5fb",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/test_output.csv": "06eab1afc94c0ee3140cabc785ed1a81e7e3446d0a580aebc749c5853a1d07c5",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/train_input.csv": "3de4709bcb4e9e5c155c075ab8e210de3b8545f73a43edaf05885b41a849a9d1",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/train_output.csv": "e2d852dccac4f0db8934746f8c14aedb316edd5589c972d7a10d6dc85c0775c2",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/val_input.csv": "ad04f3f272d6974429c7a5b6ee6bbcca91c180157066a5994ae7bb5912053c97",
+    "experiments/pa_models/opendpd_measured/datasets/DPA_160MHz/val_output.csv": "efdfeb3d261a284024daa53378201917d1d7af96e128fa65a5c44c5266665c15",
+    "experiments/pa_models/opendpd_measured/LICENSE": "deb902d88d3c587ddc0aec3e144f85abf83f0b48ce08080ad2971f7dd358ef71"
+  },
+  "scope": "Readable single-method extraction. Runtime and one-update equivalence verified; full multi-seed training not rerun.",
+  "raw_saved_run_sources": {
+    "frozen_inputs.npz": "508cd1b60cd2a07032f4ee3b7a9883e9fa6f0c869334ec337dd60b05de5a177e",
+    "training_pa_outputs.npz": "aba0df50316b04f8be0668205743d761dd6fa1adb53f38dde044b9219a14fb52",
+    "comparison.json": "1f1de533d1a31fff003c2165c91fe2a2d65d2c28184c38a2aa55820dca4a62e6"
+  },
+  "v05_spectrum_curves_sha256": "7074e1cc10d837d2e82553ae8ec2f0d8e0decb292639fc4a53a515ac8d587bf3",
+  "v05_table_sources": {
+    "II": {
+      "rows": 12,
+      "all_displayed_numeric_cells_match": true,
+      "source_sha256": "1e06c40183ce8f4c78664bfdfdcf48cd00133cdad17e6143a129ca490e018258"
+    },
+    "III": {
+      "rows": 4,
+      "all_displayed_numeric_cells_match": true,
+      "source_sha256": "6a44ba73fac696427e2c10ce324e54520663296abf7c9c8a090d1a2685f6d945"
+    },
+    "IV": {
+      "rows": 6,
+      "all_displayed_numeric_cells_match": true,
+      "source_sha256": "f57dc1b2e5921ad50b7e19415e28fb2ef5190d29726f7d52b09d16369eeb22ee"
+    },
+    "V": {
+      "rows": 2,
+      "all_displayed_numeric_cells_match": true,
+      "source_sha256": "539a3960be25472980098f5559b501f2f39f7e9c7ba5ace61e3fc28478b71dbe"
+    }
+  }
+}
