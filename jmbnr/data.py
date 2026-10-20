@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Original-capture IO and CPU inference helpers. Input values are unchanged."""
 
 from pathlib import Path

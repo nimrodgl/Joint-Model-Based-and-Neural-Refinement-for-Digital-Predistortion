@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Exact archived reporting metrics and validation guards, separate from losses."""
 
 import numpy as np

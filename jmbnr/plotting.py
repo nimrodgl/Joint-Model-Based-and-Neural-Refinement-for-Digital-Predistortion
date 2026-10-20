@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Result plots use a common desired-signal FFT scale, not an ACPR estimator."""
 
 import numpy as np

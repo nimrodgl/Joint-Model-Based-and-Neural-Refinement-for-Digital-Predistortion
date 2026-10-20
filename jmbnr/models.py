@@ -1,3 +1,8 @@
+# SPDX-License-Identifier: MIT AND Apache-2.0
+# OpenDPD DGRU portions: Yizhuo Wu, Chang Gao
+# Upstream contact: yizhuo.wu@tudelft.nl, chang.gao@tudelft.nl
+# Modified: standalone eager PA wrapper; other JMBNR models are original.
+# Apache-2.0 covers adapted portions; MIT covers original contributions.
 """Readable network definitions; .pt files contain only saved weights/metadata."""
 
 import torch

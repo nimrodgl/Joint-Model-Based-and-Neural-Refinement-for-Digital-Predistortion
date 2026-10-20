@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Retrain the proposed baseline/refinement through the bundled frozen PA."""
 
 import argparse

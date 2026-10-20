@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Executed baseline and protected-refinement objectives.
 
 These minibatch proxies differ from the full-capture reporting metrics.

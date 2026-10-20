@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Replay one saved five-method comparison, or plot its archived raw outputs."""
 
 import argparse

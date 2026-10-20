@@ -1,0 +1,214 @@
+{
+  "scope": "Per-file inventory; AND denotes retained obligations for different incorporated portions, not a choice of license.",
+  "upstream_revision": "1207a6f06349d25756a792a76241150bdf518af4",
+  "files": {
+    ".gitignore": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "FILE_LICENSES.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "LICENSE": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "LICENSE-OpenDPD": {
+      "license_expression": "Apache-2.0",
+      "origin": "Verbatim upstream license text",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/LICENSE"
+    },
+    "README.md": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "SOURCE_PROVENANCE.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "VALIDATION.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "data/checksums.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "data/spec.json": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/spec.json",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "data/test_input.csv": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/test_input.csv",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "data/test_output.csv": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/test_output.csv",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "data/train_input.csv": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/train_input.csv",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "data/train_output.csv": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/train_output.csv",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "data/val_input.csv": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/val_input.csv",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "data/val_output.csv": {
+      "license_expression": "Apache-2.0",
+      "origin": "Unchanged OpenDPD download",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/datasets/DPA_160MHz/val_output.csv",
+      "upstream_git_blob_verified": true,
+      "license_file": "LICENSE-OpenDPD"
+    },
+    "generate_results.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/__init__.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/data.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/gmp.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/losses.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/metrics.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/models.py": {
+      "license_expression": "MIT AND Apache-2.0",
+      "origin": "Adapted OpenDPD portions plus original JMBNR contributions",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/backbones/dgru.py",
+      "scope": "MIT for original contributions only; Apache-2.0 for upstream portions"
+    },
+    "jmbnr/opendpd_metrics.py": {
+      "license_expression": "MIT AND Apache-2.0",
+      "origin": "Adapted OpenDPD portions plus original JMBNR contributions",
+      "source": "https://github.com/lab-emi/OpenDPD/tree/1207a6f06349d25756a792a76241150bdf518af4/utils/metrics.py",
+      "scope": "MIT for original contributions only; Apache-2.0 for upstream portions"
+    },
+    "jmbnr/plotting.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/reporting.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "jmbnr/training.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "manifest.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "models/baseline_cnn.pt": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "models/config.json": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "models/gmp_initial.npy": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "models/gmp_refined.npy": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "models/jmbnr_cnn.pt": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "models/pa.pt": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "models/rvtdcnn.pt": {
+      "license_expression": "MIT",
+      "origin": "Locally trained/identified artifact or project-generated configuration; not an upstream download"
+    },
+    "requirements.txt": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "results/baseline_history.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "results/expected_metrics.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "results/expected_outputs.npz": {
+      "license_expression": "MIT AND Apache-2.0",
+      "origin": "Generated archive with upstream reference data or source-derived curves",
+      "scope": "MIT for project-generated portions; upstream terms retained for original reference/source-derived content"
+    },
+    "results/refinement_history.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "results/study_summaries.json": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "results/v05_spectrum_curves.npz": {
+      "license_expression": "MIT AND Apache-2.0",
+      "origin": "Generated archive with upstream reference data or source-derived curves",
+      "scope": "MIT for project-generated portions; upstream terms retained for original reference/source-derived content"
+    },
+    "run.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "train.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    },
+    "verify.py": {
+      "license_expression": "MIT",
+      "origin": "Project-generated JMBNR contribution; grant limited to authors rights"
+    }
+  }
+}

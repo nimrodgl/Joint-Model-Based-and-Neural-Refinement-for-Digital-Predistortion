@@ -1,3 +1,8 @@
+# SPDX-License-Identifier: Apache-2.0 AND MIT
+# Upstream authors: Yizhuo Wu, Chang Gao
+# Upstream contact: yizhuo.wu@tudelft.nl, chang.gao@tudelft.nl
+# OpenDPD utils/metrics.py; extracted/reformatted for JMBNR.
+# MIT covers only JMBNR modifications; see THIRD_PARTY_NOTICES.md.
 """OpenDPD reporting metrics (Apache-2.0); retained equations and indexing."""
 
 from typing import Tuple, Union

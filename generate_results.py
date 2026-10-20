@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Generate V05 Tables I--V and Figures 1--2 from the retained result records.
 
 This exports archived numerical evidence; it does not retrain or replay every

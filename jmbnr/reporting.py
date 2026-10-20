@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Recompute V05 table aggregates and plot the exact archived spectrum curves."""
 
 import csv

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """Train the conditioned baseline and protected long-memory refinement.
 
 Only this single proposed-method path is supported here. Archived benchmark

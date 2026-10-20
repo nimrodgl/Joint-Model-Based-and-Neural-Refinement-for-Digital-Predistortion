@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Nimrod Glazer and JMBNR contributors
 """The 132-term GMP, offline ridge identification, and selected joint-update basis."""
 
 from dataclasses import dataclass
